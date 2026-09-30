@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Church",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_church"
+    ],
+    "children": [
+      {
+        "name": "Inside, On Seat",
+        "visibility_rules": ["paint_cans_enabled"],
+        "sections": [
+          {
+            "name": "Black Paint Can",
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/black_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/black_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "shape": "trapezoid",
+            "x": 780,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Downhill Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 1370,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Back Path, Near Rock Wall",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 850,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Door",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 555,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Graveyard, On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 730,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Outside, Under Window",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 790,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Graveyard, Near Graves, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 1020,
+            "y": 810
+          }
+        ]
+      },
+      {
+        "name": "Graveyard, Near Graves, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 1130,
+            "y": 1065
+          }
+        ]
+      },
+      {
+        "name": "Graveyard, Near Graves, Right",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 1190,
+            "y": 775
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Door",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "shape": "trapezoid",
+            "x": 610,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Sermon Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "shape": "trapezoid",
+            "x": 815,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "shape": "trapezoid",
+            "x": 820,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Inside, In Black Corner",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "shape": "trapezoid",
+            "x": 660,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Back Path, Between Trees",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "church",
+            "x": 1025,
+            "y": 215
+          }
+        ]
+      }
+    ]
+  }
+]

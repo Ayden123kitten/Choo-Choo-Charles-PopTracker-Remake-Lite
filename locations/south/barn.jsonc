@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Barn",
+    "children": [
+      {
+        "name": "Barn",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_count": 9,
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["tonys_barn_key"]
+          },
+          {
+            "name": "Note",
+            "access_rules": ["tonys_barn_key"],
+            "item_count": 2,
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barn",
+            "size": 120,
+            "x": 1415,
+            "y": 185
+          }
+        ]
+      },
+      {
+        "name": "Tony Tiddle",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "rect",
+            "map": "barn",
+            "x": 490,
+            "y": 775
+          }
+        ]
+      }
+    ]
+  }
+]

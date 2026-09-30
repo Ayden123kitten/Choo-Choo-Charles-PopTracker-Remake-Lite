@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Barbed Shelter",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_barbed_shelter"
+    ],
+    "children": [
+      {
+        "name": "Gertrude",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,49",
+            "chest_unopened_img": "images/items/broken_bob.png",
+            "chest_opened_img": "images/items_disabled/broken_bob.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "barbed_shelter",
+            "x": 930,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Near Rails",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barbed_shelter",
+            "x": 1240,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Under Barbed Wire",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barbed_shelter",
+            "x": 840,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barbed_shelter",
+            "x": 600,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Behind Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barbed_shelter",
+            "x": 905,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "barbed_shelter",
+            "x": 820,
+            "y": 595
+          }
+        ]
+      }
+    ]
+  }
+]

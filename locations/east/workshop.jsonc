@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Workshop",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_workshop"
+    ],
+    "children": [
+      {
+        "name": "Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "x": 995,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "On Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "workshop",
+            "x": 1020,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "On Side Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "x": 765,
+            "y": 185
+          }
+        ]
+      },
+      {
+        "name": "Near Water Tank",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "x": 815,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "x": 675,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Near Beds",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "shape": "trapezoid",
+            "x": 875,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/note_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "shape": "trapezoid",
+            "x": 865,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "John Smith",
+        "sections": [
+          {
+            "name": "Mission End",
+            "access_rules": ["box_of_rockets"],
+            "item_size": "27,64",
+            "chest_unopened_img": "images/weapons/the_boomer.png",
+            "chest_opened_img": "images/weapons_disabled/the_boomer.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "workshop",
+            "x": 940,
+            "y": 485
+          }
+        ]
+      }
+    ]
+  }
+]

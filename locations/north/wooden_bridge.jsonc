@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Wooden Bridge",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_wooden_bridge"
+    ],
+    "children": [
+      {
+        "name": "Arch, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1335,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Arch, On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1240,
+            "y": 195
+          }
+        ]
+      },
+      {
+        "name": "Arch, Left Pillar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1100,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Arch, Right Pillar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1190,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near High Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1040,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near Small Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 955,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Bottom, West",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 815,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1235,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Top, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1020,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "name": "Top, Near Middle",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1020,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Top, Near Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "x": 1000,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Scaffolding, Near Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "shape": "diamond",
+            "x": 950,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "Scaffolding, Near Middle",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wooden_bridge",
+            "shape": "diamond",
+            "x": 1015,
+            "y": 490
+          }
+        ]
+      }
+    ]
+  }
+]

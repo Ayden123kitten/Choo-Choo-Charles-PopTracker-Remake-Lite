@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Junkyard Area",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_junkyard_area"
+    ],
+    "children": [
+      {
+        "name": "Daryl",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,37",
+            "chest_unopened_img": "images/items/lockpicks.png",
+            "chest_opened_img": "images/items_disabled/lockpicks.png"
+          },
+          {
+            "name": "Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["ancient_tablet"]
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "junkyard_area",
+            "x": 1400,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Inside Workshop",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "junkyard_area",
+            "x": 1470,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "junkyard_area",
+            "x": 1535,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Top Railcar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "junkyard_area",
+            "x": 1100,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Middle Railcar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "junkyard_area",
+            "x": 1070,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Bottom Railcar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "junkyard_area",
+            "x": 1175,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Near Junk Stacks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 575,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "On Junk Stacks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 515,
+            "y": 665
+          }
+        ]
+      },
+      {
+        "name": "On Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 1035,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "name": "Behind Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 1535,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Near Campfire",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "60,43",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 1630,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Chest",
+        "sections": [
+          {
+            "name": "Ancient Tablet",
+            "item_size": "64,46",
+            "chest_unopened_img": "images/items/ancient_tablet.png",
+            "chest_opened_img": "images/items_disabled/ancient_tablet.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "junkyard_area",
+            "x": 900,
+            "y": 680
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "goal_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "group",
+        "header": "Goal Items",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2, 2",
+          "h_alignment": "left",
+          "item_h_alignment": "center",
+          "item_v_alignment": "center",
+          "rows": [["red_egg", "green_egg", "blue_egg", "temple_key"]]
+        }
+      }
+    ]
+  }
+}

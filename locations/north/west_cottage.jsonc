@@ -1,0 +1,144 @@
+[
+  {
+    "name": "West Cottage",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_west_cottage"
+    ],
+    "children": [
+      {
+        "name": "Gale",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 995,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 860,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Near Crate",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 925,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 900,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Near Far Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 1110,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Near Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 1020,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Under Roof",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "west_cottage",
+            "x": 1010,
+            "y": 410
+          }
+        ]
+      }
+    ]
+  }
+]

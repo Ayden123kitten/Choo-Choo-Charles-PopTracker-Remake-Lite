@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "group",
+        "dock": "top",
+        "header": "Settings",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_h_alignment": "center",
+            "h_alignment": "left",
+            "item_v_alignment": "center",
+            "item_margin": "2, 2",
+            "rows": [
+              [
+                "scraps_toggle",
+                "paint_cans_toggle",
+                "weapons_toggle",
+                "cursed_fogs_toggle",
+                "track_switch_toggle",
+                "speed_toggle",
+                "damage_toggle",
+                "armor_toggle",
+                "notes_toggle",
+                "core_toggle"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

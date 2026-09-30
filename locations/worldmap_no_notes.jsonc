@@ -1,0 +1,1712 @@
+[
+  {
+    "name": "Aranearum",
+    "children": [
+      {
+        "name": "Start Dock",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 300,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "name": "Start Station",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 330,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Start Camp",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 500,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Barn",
+        "sections": [
+          {
+            "name": "Tony Tiddle Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          },
+          {
+            "name": "Barn",
+            "visibility_rules": ["scraps_enabled"],
+            "access_rules": ["tonys_barn_key"],
+            "item_count": 9,
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Barn Note",
+            "access_rules": ["tonys_barn_key"],
+            "item_count": 2,
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 680,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "South House",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_south_house"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_count": 12,
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 740,
+            "y": 950
+          }
+        ]
+      },
+      {
+        "name": "Candice's House",
+        "sections": [
+          {
+            "name": "Candice Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          },
+          {
+            "name": "House",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 9,
+            "access_rules": ["candices_key"]
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "access_rules": ["candices_key"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 690,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Junkyard Area",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_junkyard_area"
+        ],
+        "sections": [
+          {
+            "item_count": 10,
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Daryl Mission Start",
+            "item_size": "64,37",
+            "chest_unopened_img": "images/items/lockpicks.png",
+            "chest_opened_img": "images/items_disabled/lockpicks.png"
+          },
+          {
+            "name": "Ancient Tablet",
+            "item_size": "64,46",
+            "chest_unopened_img": "images/items/ancient_tablet.png",
+            "chest_opened_img": "images/items_disabled/ancient_tablet.png",
+
+            "access_rules": ["lockpicks"]
+          },
+          {
+            "name": "Daryl Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+
+            "access_rules": ["ancient_tablet"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 775,
+            "y": 890
+          }
+        ]
+      },
+      {
+        "name": "Junkyard Shed",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_junkyard_shed"
+        ],
+        "sections": [
+          {
+            "item_count": 8,
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Helen Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 810,
+            "y": 825
+          }
+        ]
+      },
+      {
+        "name": "Military Base",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_military_base"
+        ],
+        "sections": [
+          {
+            "item_count": 12,
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Orange Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/orange_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/orange_paint_can.png"
+          },
+          {
+            "name": "Sgt. Flint Mission End",
+            "item_size": "64,57",
+            "chest_unopened_img": "images/weapons/bug_spray.png",
+            "chest_opened_img": "images/weapons_disabled/bug_spray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 875,
+            "y": 835
+          }
+        ]
+      },
+      {
+        "name": "Swamp",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 37
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Dead Fish",
+            "item_size": "64,14",
+            "chest_unopened_img": "images/items/dead_fish.png",
+            "chest_opened_img": "images/items_disabled/dead_fish.png"
+          },
+          {
+            "name": "Lizbeth Murkwater Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+
+            "access_rules": ["dead_fish"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 80,
+            "x": 750,
+            "y": 770
+          }
+        ]
+      },
+      {
+        "name": "South Mine",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_south_mine"
+        ],
+        "sections": [
+          {
+            "name": "Outside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 7
+          },
+          {
+            "name": "Inside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 9,
+            "access_rules": ["south_mine_key"]
+          },
+          {
+            "name": "Green Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/grey_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/grey_paint_can.png",
+            "access_rules": ["south_mine_key, lockpicks"]
+          },
+          {
+            "name": "Green Egg",
+            "item_size": "51,64",
+            "chest_unopened_img": "images/items/green_egg.png",
+            "chest_opened_img": "images/items_disabled/green_egg.png",
+
+            "access_rules": ["south_mine_key"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "shape": "trapezoid",
+            "size": 40,
+            "x": 840,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Pickle Valley",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_pickle_valley"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 23
+          },
+          {
+            "name": "Purple Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/purple_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/purple_paint_can.png"
+          },
+          {
+            "name": "Jar of Pickles",
+            "item_size": "46,64",
+            "chest_unopened_img": "images/items/jar_of_pickles.png",
+            "chest_opened_img": "images/items_disabled/jar_of_pickles.png",
+            "access_rules": ["lockpicks"]
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "item_count": 2
+          },
+          {
+            "name": "Pickle Lady Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+
+            "access_rules": ["jar_of_pickles"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 50,
+            "x": 605,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Canyon",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_canyon"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 17
+          },
+          {
+            "name": "Blue Box",
+            "item_size": "64,48",
+            "chest_unopened_img": "images/items/blue_box.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 70,
+            "x": 460,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Middle Station",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_middle_station"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 20
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Theodore Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["blue_box"]
+          },
+          {
+            "name": "White Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/white_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/white_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 528,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Watchtower",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_watchtower"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 10
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "item_count": 2
+          },
+          {
+            "name": "Pink Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/pink_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/pink_paint_can.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 540,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Boulder Field",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 18
+          },
+          {
+            "name": "Child's Drawings",
+            "item_size": "45,64",
+            "chest_unopened_img": "images/items/childs_drawing.png",
+            "chest_opened_img": "images/items_disabled/childs_drawing.png",
+            "item_count": 8
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 45,
+            "x": 592,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Haunted House",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_haunted_house"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Sasha Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["$has_more_then_n|childs_drawing|7"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 585,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Port",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_port"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 19
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "item_count": 2
+          },
+          {
+            "name": "Grey Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/grey_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/grey_paint_can.png"
+          },
+          {
+            "name": "Santiago Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+
+            "access_rules": ["journal"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 50,
+            "x": 705,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Santiago's House",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_santiago_s_house"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 10
+          },
+          {
+            "name": "Journal",
+            "item_size": "64,43",
+            "chest_unopened_img": "images/items/journal.png",
+            "chest_opened_img": "images/items_disabled/journal.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 550,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Lost Stairs",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 600,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Doll Woods",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_doll_woods"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 10
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 655,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Trench House",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 18
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 700,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Rocket Grounds",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_rocket_grounds"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 10
+          },
+          {
+            "name": "Timed Dynamite",
+            "item_size": "64,45",
+            "chest_unopened_img": "images/items/timed_dynamite.png",
+            "chest_opened_img": "images/items_disabled/timed_dynamite.png"
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Bunker",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 2,
+            "access_rules": ["timed_dynamite"]
+          },
+          {
+            "name": "Box of Rockets",
+            "item_size": "46,64",
+            "chest_unopened_img": "images/items/box_of_rockets.png",
+            "chest_opened_img": "images/items_disabled/box_of_rockets.png",
+            "access_rules": ["timed_dynamite"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 45,
+            "x": 725,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Workshop",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_workshop"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "John Smith Mission End",
+            "item_size": "27,64",
+            "chest_unopened_img": "images/weapons/the_boomer.png",
+            "chest_opened_img": "images/weapons_disabled/the_boomer.png",
+            "access_rules": ["box_of_rockets"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 780,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Cliff House",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_cliff_house"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 14
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 35,
+            "x": 845,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Tower Near Workshop",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_tower_near_workshop"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Greg Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 800,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Lighthouse",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_lighthouse"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 18
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Breaker",
+            "item_size": "39,64",
+            "chest_unopened_img": "images/items/breaker.png",
+            "chest_opened_img": "images/items_disabled/breaker.png",
+            "item_count": 4
+          },
+          {
+            "name": "Claire Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["$has_more_then_n|breaker|3"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 847,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Temple",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_temple"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 34
+          },
+          {
+            "name": "Chest",
+            "item_count": 3,
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 65,
+            "x": 443,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "Shrine Near Temple",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 3
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 370,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Tall Towers",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_tall_towers"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 27
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Employment Contracts",
+            "item_size": "64,42",
+            "chest_unopened_img": "images/items/employment_contracts.png",
+            "chest_opened_img": "images/items_disabled/employment_contracts.png"
+          },
+          {
+            "name": "Lime Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/lime_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/lime_paint_can.png"
+          },
+          {
+            "name": "Ronny Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["employment_contracts"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 43,
+            "x": 297,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Trailer Cabin",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_trailer_cabin"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 170,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Caravan",
+
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 9
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5,
+            "access_rules": ["lockpicks"]
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 190,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Mine Elevator Exit",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_mine_elevator_exit"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 9
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 265,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Mountain Ruin",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_mountain_ruin"
+        ],
+        "sections": [
+          {
+            "name": "Outside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 17
+          },
+          {
+            "name": "Inside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 17,
+            "access_rules": ["mountain_ruin_key"]
+          },
+          {
+            "name": "Red Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/red_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/red_paint_can.png",
+            "access_rules": ["mountain_ruin_key, lockpicks"]
+          },
+          {
+            "name": "Red Egg",
+            "item_size": "51,64",
+            "chest_unopened_img": "images/items/red_egg.png",
+            "chest_opened_img": "images/items_disabled/red_egg.png",
+            "access_rules": ["mountain_ruin_key"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "shape": "trapezoid",
+            "size": 60,
+            "x": 350,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Mob Camp",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_mob_camp"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 16
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Mob Camp Key",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          },
+          {
+            "name": "Locked Room",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 2,
+            "access_rules": ["mob_camp_key"]
+          },
+          {
+            "name": "Bob",
+            "item_size": "39,64",
+            "chest_unopened_img": "images/weapons/bob.png",
+            "chest_opened_img": "images/weapons_disabled/bob.png",
+            "access_rules": ["mob_camp_key, broken_bob"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 257,
+            "y": 323
+          }
+        ]
+      },
+      {
+        "name": "West Cottage",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_west_cottage"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Gale Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 105,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "Church",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_church"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 12
+          },
+          {
+            "name": "Black Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/black_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/black_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 135,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Barbed Shelter",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_barbed_shelter"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5
+          },
+          {
+            "name": "Gertrude Mission Start",
+            "item_size": "64,49",
+            "chest_unopened_img": "images/items/broken_bob.png",
+            "chest_opened_img": "images/items_disabled/broken_bob.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 80,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "West Beach",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_west_beach"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 8
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 6,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 50,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "North Beach",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_north_beach"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 15
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Teal Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/teal_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/teal_paint_can.png"
+          },
+          {
+            "name": "Chest",
+            "item_count": 4,
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 55,
+            "x": 50,
+            "y": 45
+          }
+        ]
+      },
+      {
+        "name": "Wooden Bridge",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_wooden_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 13
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 35,
+            "x": 72,
+            "y": 147
+          }
+        ]
+      },
+      {
+        "name": "Museum",
+        "access_rules": [
+          "fogbane_pack, relics_enabled",
+          "relics_disabled",
+          "relics_enabled, fogbane_museum"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 12
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "item_count": 2
+          },
+          {
+            "name": "Paul Mission Start",
+            "item_size": "64,64",
+            "chest_unopened_img": "images/items/remote_explosives.png",
+            "chest_opened_img": "images/items_disabled/remote_explosives.png"
+          },
+          {
+            "name": "Paul Mission End",
+            "item_size": "64,49",
+            "chest_unopened_img": "images/items/temple_key.png",
+            "chest_opened_img": "images/items_disabled/temple_key.png",
+            "access_rules": ["remote_explosives"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "x": 107,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Morse Bunker",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_morse_bunker"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 13
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 180,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "North Mine",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_north_mine"
+        ],
+        "sections": [
+          {
+            "name": "Outside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 14
+          },
+          {
+            "name": "Inside",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 14,
+            "access_rules": ["north_mine_key"]
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "access_rules": ["north_mine_key"]
+          },
+          {
+            "name": "Blue Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/blue_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/blue_paint_can.png",
+            "access_rules": ["north_mine_key, lockpicks"]
+          },
+          {
+            "name": "Blue Egg",
+            "item_size": "51,64",
+            "chest_unopened_img": "images/items/blue_egg.png",
+            "chest_opened_img": "images/items_disabled/blue_egg.png",
+            "access_rules": ["north_mine_key"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 60,
+            "shape": "trapezoid",
+            "x": 155,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Mine Shaft",
+        "access_rules": [
+          "relics_disabled",
+          "fogbane_pack, relics_enabled",
+          "relics_enabled, fogbane_mine_shaft"
+        ],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 14
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Chest",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 7,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "aranearum_no_notes",
+            "size": 40,
+            "x": 325,
+            "y": 250
+          }
+        ]
+      }
+    ]
+  }
+]

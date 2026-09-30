@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Mob Camp",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_mob_camp"
+    ],
+    "children": [
+      {
+        "name": "Locked Room, Near Table",
+        "sections": [
+          {
+            "access_rules": ["mob_camp_key"],
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 885,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Locked Room, On Shelves",
+        "sections": [
+          {
+            "access_rules": ["mob_camp_key"],
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 830,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Locked Room, On Table",
+        "sections": [
+          {
+            "name": "Stolen Bob",
+            "access_rules": ["mob_camp_key, broken_bob"],
+            "item_size": "39,64",
+            "chest_unopened_img": "images/weapons/bob.png",
+            "chest_opened_img": "images/weapons_disabled/bob.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 885,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Topmost, On Table",
+        "sections": [
+          {
+            "name": "Mob Camp Key",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 1185,
+            "y": 900
+          }
+        ]
+      },
+      {
+        "name": "Topmost, Near Campfire",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 1380,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "name": "Topmost, Near Beds",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 1225,
+            "y": 965
+          }
+        ]
+      },
+      {
+        "name": "Topmost, On Balcony",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 1110,
+            "y": 910
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, Near Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 905,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 920,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, On Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 860,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, Sheltered, Left",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 895,
+            "y": 635
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, Sheltered, Right",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 920,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Rest Shelter, Between Tents, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 760,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Rest Shelter, Between Tents, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 755,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Workshop, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 815,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Workshop, Under Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "mob_camp",
+            "x": 970,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Workshop, Near Water Tank",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 865,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Rest Shelter, Near Campfire",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 945,
+            "y": 955
+          }
+        ]
+      },
+      {
+        "name": "Workshop, In Tower",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 940,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Rest Shelter, Inside",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "shape": "trapezoid",
+            "x": 875,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Topmost, On Bridge",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 1165,
+            "y": 730
+          }
+        ]
+      }
+    ]
+  }
+]

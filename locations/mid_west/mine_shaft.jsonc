@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Mine Shaft",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_mine_shaft"
+    ],
+    "children": [
+      {
+        "name": "Chest",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 7,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 1150,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 775,
+            "y": 970
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Minecarts",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 645,
+            "y": 925
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 880,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 650,
+            "y": 825
+          }
+        ]
+      },
+      {
+        "name": "Inside, Topmost",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "mine_shaft",
+            "x": 725,
+            "y": 880
+          }
+        ]
+      },
+      {
+        "name": "Inside, After Freefall",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 755,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 685,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Chest",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 825,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 815,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 855,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Rails, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 1240,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Rails, Middle",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 1380,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Exit Near Rails",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "shape": "trapezoid",
+            "x": 1430,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Exit, End Rails",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 1455,
+            "y": 195
+          }
+        ]
+      },
+      {
+        "name": "Exit, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_shaft",
+            "x": 1505,
+            "y": 135
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "fog_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "group",
+        "header": "Fogbane Relics",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2, 2",
+          "h_alignment": "left",
+          "item_h_alignment": "center",
+          "item_v_alignment": "center",
+          "rows": [["fogbane_pack"]]
+        }
+      }
+    ]
+  }
+}

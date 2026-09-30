@@ -1,0 +1,35 @@
+{
+  "quest_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "group",
+        "header": "Quest Items",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2, 2",
+          "h_alignment": "left",
+          "item_h_alignment": "center",
+          "item_v_alignment": "center",
+          "rows": [
+            [
+              "employment_contracts",
+              "ancient_tablet",
+              "dead_fish",
+              "jar_of_pickles",
+              "blue_box",
+              "broken_bob",
+              "box_of_rockets",
+              "journal",
+              "timed_dynamite",
+              "remote_explosives"
+            ],
+            ["childs_drawing", "breaker"]
+          ]
+        }
+      }
+    ]
+  }
+}

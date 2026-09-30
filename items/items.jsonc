@@ -1,0 +1,479 @@
+[
+  {
+    "name": "Green Egg",
+    "type": "toggle",
+    "img": "images/items_2/green_egg.png",
+    "codes": "green_egg"
+  },
+  {
+    "name": "Blue Egg",
+    "type": "toggle",
+    "img": "images/items_2/blue_egg.png",
+    "codes": "blue_egg"
+  },
+  {
+    "name": "Red Egg",
+    "type": "toggle",
+    "img": "images/items_2/red_egg.png",
+    "codes": "red_egg"
+  },
+  {
+    "name": "Lockpicks",
+    "type": "toggle",
+    "img": "images/items_2/lockpicks.png",
+    "codes": "lockpicks"
+  },
+  {
+    "name": "Temple Key",
+    "type": "toggle",
+    "img": "images/items_2/temple_key.png",
+    "codes": "temple_key"
+  },
+  {
+    "name": "South Mine Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "south_mine_key"
+  },
+  {
+    "name": "North Mine Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "north_mine_key"
+  },
+  {
+    "name": "Mountain Ruin Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "mountain_ruin_key"
+  },
+  {
+    "name": "Tony's Barn Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "tonys_barn_key"
+  },
+  {
+    "name": "Candice's Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "candices_key"
+  },
+  {
+    "name": "Mob Camp Key",
+    "type": "toggle",
+    "img": "images/items_2/key.png",
+    "codes": "mob_camp_key"
+  },
+  {
+    "name": "Employee Contracts",
+    "type": "toggle",
+    "img": "images/items_2/employment_contracts.png",
+    "codes": "employment_contracts"
+  },
+  {
+    "name": "Ancient Tablet",
+    "type": "toggle",
+    "img": "images/items_2/ancient_tablet.png",
+    "codes": "ancient_tablet"
+  },
+  {
+    "name": "Child's Drawing",
+    "type": "consumable",
+    "img": "images/items/childs_drawing.png",
+    "codes": "childs_drawing",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1
+  },
+  {
+    "name": "Breaker",
+    "type": "consumable",
+    "img": "images/items_2/breaker.png",
+    "codes": "breaker",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1
+  },
+  {
+    "name": "Dead Fish",
+    "type": "toggle",
+    "img": "images/items_2/dead_fish.png",
+    "codes": "dead_fish"
+  },
+  {
+    "name": "Jar of Pickles",
+    "type": "toggle",
+    "img": "images/items_2/jar_of_pickles.png",
+    "codes": "jar_of_pickles"
+  },
+  {
+    "name": "Broken Bob",
+    "type": "toggle",
+    "img": "images/items_2/broken_bob.png",
+    "codes": "broken_bob"
+  },
+  {
+    "name": "Blue Box",
+    "type": "toggle",
+    "img": "images/items_2/blue_box.png",
+    "codes": "blue_box"
+  },
+  {
+    "name": "Box of Rockets",
+    "type": "toggle",
+    "img": "images/items_2/box_of_rockets.png",
+    "codes": "box_of_rockets"
+  },
+  {
+    "name": "Journal",
+    "type": "toggle",
+    "img": "images/items_2/journal.png",
+    "codes": "journal"
+  },
+  {
+    "name": "Timed Dynamite",
+    "type": "toggle",
+    "img": "images/items_2/timed_dynamite.png",
+    "codes": "timed_dynamite"
+  },
+  {
+    "name": "Remote Explosives",
+    "type": "toggle",
+    "img": "images/items_2/remote_explosives.png",
+    "codes": "remote_explosives"
+  },
+  {
+    "name": "Mine Shaft Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_mine_shaft"
+  },
+  {
+    "name": "Junkyard Area Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_junkyard_area"
+  },
+  {
+    "name": "Junkyard Shed Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_junkyard_shed"
+  },
+  {
+    "name": "South House Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_south_house"
+  },
+  {
+    "name": "Military Base Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_military_base"
+  },
+  {
+    "name": "South Mine Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_south_mine"
+  },
+  {
+    "name": "Middle Station Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_middle_station"
+  },
+  {
+    "name": "Canyon Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_canyon"
+  },
+  {
+    "name": "Watchtower Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_watchtower"
+  },
+  {
+    "name": "Haunted House Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_haunted_house"
+  },
+  {
+    "name": "Santiago's House Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_santiago_s_house"
+  },
+  {
+    "name": "Port Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_port"
+  },
+  {
+    "name": "Doll Woods Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_doll_woods"
+  },
+  {
+    "name": "Cliff House Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_cliff_house"
+  },
+  {
+    "name": "Rocket Grounds Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_rocket_grounds"
+  },
+  {
+    "name": "Workshop Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_workshop"
+  },
+  {
+    "name": "Tower Near Workshop Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_tower_near_workshop"
+  },
+  {
+    "name": "Lighthouse Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_lighthouse"
+  },
+  {
+    "name": "North Mine Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_north_mine"
+  },
+  {
+    "name": "Wooden Bridge Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_wooden_bridge"
+  },
+  {
+    "name": "Museum Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_museum"
+  },
+  {
+    "name": "Barbed Shelter Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_barbed_shelter"
+  },
+  {
+    "name": "West Beach Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_west_beach"
+  },
+  {
+    "name": "Church Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_church"
+  },
+  {
+    "name": "West Cottage Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_west_cottage"
+  },
+  {
+    "name": "Trailer Cabin Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_trailer_cabin"
+  },
+  {
+    "name": "Tall Towers Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_tall_towers"
+  },
+  {
+    "name": "North Beach Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_north_beach"
+  },
+  {
+    "name": "Mob Camp Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_mob_camp"
+  },
+  {
+    "name": "Mine Elevator Exit Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_mine_elevator_exit"
+  },
+  {
+    "name": "Mountain Ruin Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_mountain_ruin"
+  },
+  {
+    "name": "Temple Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_temple"
+  },
+  {
+    "name": "Pickle Valley Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_pickle_valley"
+  },
+  {
+    "name": "Morse Bunker Fogbane Relic",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_morse_bunker"
+  },
+  {
+    "name": "Fogbane Relic Pack",
+    "type": "toggle",
+    "img": "images/items/cursed_fog.png",
+    "codes": "fogbane_pack"
+  },
+  {
+    "name": "Candice's House/Barn Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_tutorial_barn"
+  },
+  {
+    "name": "Middle/Port Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_middle_port"
+  },
+  {
+    "name": "Haunted House/East Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_haunted_East"
+  },
+  {
+    "name": "North/Temple Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_north_temple"
+  },
+  {
+    "name": "Caravan/Cultists Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_caravan_cultists"
+  },
+  {
+    "name": "Mob Camp/Mine Elevator Exit Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_camp_elevator"
+  },
+  {
+    "name": "Mountain Ruin/Temple Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_ruin_temple"
+  },
+  {
+    "name": "Mob Camp/Mine Elevator Exit Track Switch",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_camp_elevator"
+  },
+  {
+    "name": "Track Switch Pack",
+    "type": "toggle",
+    "img": "images/icons/track_switch.png",
+    "codes": "track_switch_pack"
+  },
+  {
+    "name": "Speed Level",
+    "type": "consumable",
+    "img": "images/icons/speed_upgrade.png",
+    "codes": "speed_levels",
+    "max_quantity": 9,
+    "increment": 1,
+    "decrement": 1
+  },
+  {
+    "name": "Damage Level",
+    "type": "consumable",
+    "img": "images/icons/damage_upgrade.png",
+    "codes": "damage_levels",
+    "max_quantity": 9,
+    "increment": 1,
+    "decrement": 1
+  },
+  {
+    "name": "Armor Level",
+    "type": "consumable",
+    "img": "images/icons/armor_upgrade.png",
+    "codes": "armor_levels",
+    "max_quantity": 9,
+    "increment": 1,
+    "decrement": 1
+  },
+  {
+    "name": "Speed Unlock",
+    "type": "toggle",
+    "img": "images/icons/speed_upgrade.png",
+    "codes": "speed_unlock"
+  },
+  {
+    "name": "Damage Unlock",
+    "type": "toggle",
+    "img": "images/icons/damage_upgrade.png",
+    "codes": "damage_unlock"
+  },
+  {
+    "name": "Armor Unlock",
+    "type": "toggle",
+    "img": "images/icons/armor_upgrade.png",
+    "codes": "armor_unlock"
+  },
+  {
+    "name": "Bob",
+    "type": "toggle",
+    "img": "images/weapons_2/bob.png",
+    "codes": "bob"
+  },
+  {
+    "name": "Bug Spray",
+    "type": "toggle",
+    "img": "images/weapons_2/bug_spray.png",
+    "codes": "bug_spray"
+  },
+  {
+    "name": "Derailer",
+    "type": "toggle",
+    "img": "images/weapons/derailer.png",
+    "codes": "derailer"
+  },
+  {
+    "name": "The Boomer",
+    "type": "toggle",
+    "img": "images/weapons_2/the_boomer.png",
+    "codes": "the_boomer"
+  }
+]

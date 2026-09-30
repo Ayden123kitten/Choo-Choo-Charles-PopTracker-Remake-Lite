@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Trailer Cabin",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_trailer_cabin"
+    ],
+    "children": [
+      {
+        "name": "Near Rails, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trailer_cabin",
+            "x": 1120,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trailer_cabin",
+            "x": 1000,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Behind Cabin",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trailer_cabin",
+            "x": 800,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Near Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trailer_cabin",
+            "x": 1150,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Under Cabin Roof",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "trailer_cabin",
+            "x": 1040,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Near Rails, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trailer_cabin",
+            "x": 905,
+            "y": 150
+          }
+        ]
+      }
+    ]
+  }
+]

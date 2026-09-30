@@ -1,0 +1,548 @@
+[
+  {
+    "name": "Pickle Valley",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_pickle_valley"
+    ],
+    "children": [
+      {
+        "name": "House, Near Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1350,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "House, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1325,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "House, Near Water Tank",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1275,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Under Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1170,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Main Path, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1020,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Under Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 865,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Behind Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 640,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Rising Slope Path, Intersection",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 625,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Rising Slope Path, Under Sign",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 570,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Cross-Valley Path, Near Two Signs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 390,
+            "y": 1005
+          }
+        ]
+      },
+      {
+        "name": "Cross-Valley Path, Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 440,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Cross-Valley, Path Unstacked Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 485,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Under High Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 360,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 400,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "Cave, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "shape": "trapezoid",
+            "x": 275,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Cave, Near Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "shape": "trapezoid",
+            "x": 270,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Cave, On Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "shape": "trapezoid",
+            "x": 275,
+            "y": 635
+          }
+        ]
+      },
+      {
+        "name": "Cross-Valley Path, Near Small Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 430,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Lower Hollow Path, Near Explosives",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 540,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Lower Hollow Path, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 575,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "Cross-Valley Path, Under Sign",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 600,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Main Path, Near Crossroads Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 515,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "Height, Above Pickle Cave",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 240,
+            "y": 705     
+          }
+        ]
+      },
+      {
+        "name": "House, Inside, Near Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1335,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "House, Inside, Near Beds",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1305,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "In Tent",
+        "visibility_rules": ["paint_cans_enabled"],
+        "sections": [
+          {
+            "name": "Purple Paint Can",
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/purple_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/purple_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 340,
+            "y": 705
+          }
+        ]
+      },
+      {
+        "name": "Cave, In Chest",
+        "sections": [
+          {
+            "name": "Jar of Pickles",
+            "access_rules": ["lockpicks"],
+            "item_size": "46,64",
+            "chest_unopened_img": "images/items/jar_of_pickles.png",
+            "chest_opened_img": "images/items_disabled/jar_of_pickles.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "shape": "trapezoid",
+            "x": 250,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Pickle Lady",
+        "sections": [
+          {
+            "name": "Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["jar_of_pickles"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pickle_valley",
+            "x": 1300,
+            "y": 325
+          }
+        ]
+      }
+    ]
+  }
+]

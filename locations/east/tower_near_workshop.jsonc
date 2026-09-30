@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Tower Near Workshop",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_tower_near_workshop"
+    ],
+    "children": [
+      {
+        "name": "Greg",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items_disabled/key.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "tower_near_workshop",
+            "x": 970,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Between Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "x": 840,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "x": 970,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "Near East, Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "x": 1290,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Near Northeast, Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "x": 1100,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "On Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "x": 1000,
+            "y": 615
+          }
+        ]
+      },
+      {
+        "name": "Near Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "shape": "diamond",
+            "x": 940,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_near_workshop",
+            "shape": "diamond",
+            "x": 975,
+            "y": 535
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "weapons_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": []
+  }
+}

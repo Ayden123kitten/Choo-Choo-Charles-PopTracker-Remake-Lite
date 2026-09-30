@@ -1,0 +1,31 @@
+{
+  "unlock_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "group",
+        "header": "Lockpicks/Keys",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2, 2",
+          "h_alignment": "left",
+          "item_h_alignment": "center",
+          "item_v_alignment": "center",
+          "rows": [
+            [
+              "lockpicks",
+              "south_mine_key",
+              "north_mine_key",
+              "mountain_ruin_key",
+              "tonys_barn_key",
+              "candices_key",
+              "mob_camp_key"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

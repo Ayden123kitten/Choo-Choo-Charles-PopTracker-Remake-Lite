@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Tall Towers",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_tall_towers"
+    ],
+    "children": [
+      {
+        "name": "Middle, Under Footbridge",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "tall_towers",
+            "x": 895,
+            "y": 665
+          }
+        ]
+      },
+      {
+        "name": "East, On Downhill Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1125,
+            "y": 665
+          }
+        ]
+      },
+      {
+        "name": "East, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1200,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "East, Near Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1190,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "East, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1290,
+            "y": 710
+          }
+        ]
+      },
+      {
+        "name": "Southeast, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 955,
+            "y": 820
+          }
+        ]
+      },
+      {
+        "name": "Middle, On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 980,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1090,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "North, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 940,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "North, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 815,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "North, On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 730,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Northwest, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 690,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Ruined Tower",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_count": 7,
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/Note.png"
+          },
+          {
+            "name": "Employment Contracts",
+            "item_size": "64,42",
+            "chest_unopened_img": "images/items/employment_contracts.png",
+            "chest_opened_img": "images/items_disabled/employment_contracts.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "size": 60,
+            "x": 925,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Locked Tower",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_count": 6,
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Lime Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/lime_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/lime_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "size": 60,
+            "x": 1020,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Under Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1210,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Near Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 1285,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "Ronny",
+        "sections": [
+          {
+            "name": "Mission End",
+            "access_rules": ["employment_contracts"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tall_towers",
+            "x": 875,
+            "y": 650
+          }
+        ]
+      }
+    ]
+  }
+]

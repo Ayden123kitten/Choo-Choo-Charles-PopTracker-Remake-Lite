@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Rocket Grounds",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_rocket_grounds"
+    ],
+    "children": [
+      {
+        "name": "On Crate",
+        "sections": [
+          {
+            "name": "Timed Dynamite",
+            "item_size": "64,45",
+            "chest_unopened_img": "images/items/timed_dynamite.png",
+            "chest_opened_img": "images/items_disabled/timed_dynamite.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 610,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "East, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 1660,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "East, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 1255,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Dirt Heap",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 850,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Planks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 890,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Crate",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 605,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 585,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "North, Under Sign",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 810,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Rock",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 460,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Southwest, Above Door",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 400,
+            "y": 725
+          }
+        ]
+      },
+      {
+        "name": "South, Above Bunker",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "x": 640,
+            "y": 665
+          }
+        ]
+      },
+      {
+        "name": "Bunker, Near Explosives",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["timed_dynamite"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "shape": "trapezoid",
+            "x": 660,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Bunker, In Corner",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["timed_dynamite"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "shape": "trapezoid",
+            "x": 700,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "Bunker, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/note_disabled/note.png",
+            "access_rules": ["timed_dynamite"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "shape": "trapezoid",
+            "x": 640,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "name": "Bunker, Middle",
+        "sections": [
+          {
+            "name": "Box of Rockets",
+            "item_size": "46,64",
+            "chest_unopened_img": "images/items/box_of_rockets.png",
+            "chest_opened_img": "images/items_disabled/box_of_rockets.png",
+            "access_rules": ["timed_dynamite"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_grounds",
+            "shape": "trapezoid",
+            "x": 670,
+            "y": 685
+          }
+        ]
+      }
+    ]
+  }
+]

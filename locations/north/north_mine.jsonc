@@ -1,0 +1,341 @@
+[
+  {
+    "name": "North Mine",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_north_mine"
+    ],
+    "children": [
+      {
+        "name": "Inside",
+        "access_rules": ["north_mine_key"],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 13
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "Blue Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/blue_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/blue_paint_can.png",
+            "access_rules": ["lockpicks"]
+          },
+          {
+            "name": "Blue Egg",
+            "item_size": "51,64",
+            "chest_unopened_img": "images/items/blue_egg.png",
+            "chest_opened_img": "images/items_disabled/blue_egg.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "size": 60,
+            "shape": "trapezoid",
+            "x": 820,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "name": "South, Near Crossroads",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1165,
+            "y": 965
+          }
+        ]
+      },
+      {
+        "name": "South, On Downhill Path, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1075,
+            "y": 950
+          }
+        ]
+      },
+      {
+        "name": "South, Above Door",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 835,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "South, On Downhill Path, Middle",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 795,
+            "y": 835
+          }
+        ]
+      },
+      {
+        "name": "South, On Downhill Path, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 690,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "South, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 995,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Shelter",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 960,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Middle, In Rock Pit",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 895,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Northeast, On Arch Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1010,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1205,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Near Pillars",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1045,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Middle, On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 800,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 950,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Northeast, Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1160,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Northeast, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled", "core_disabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 1090,
+            "y": 475
+          }
+        ]
+      }
+    ]
+  }
+]

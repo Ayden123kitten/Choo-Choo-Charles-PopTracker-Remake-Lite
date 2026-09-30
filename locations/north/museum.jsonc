@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Museum",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_museum"
+    ],
+    "children": [
+      {
+        "name": "Outside, Near Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 640,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Outside, Behind Sign",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 805,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 910,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Trees",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 1115,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Outside, Behind Museum",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 990,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Mutiny Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "trapezoid",
+            "x": 860,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Inside, In Side Room",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/note_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "trapezoid",
+            "x": 850,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "Inside, Under Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "trapezoid",
+            "x": 940,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "trapezoid",
+            "x": 935,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Inside, In Corner",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          },
+          {
+            "name": "scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "trapezoid",
+            "x": 930,
+            "y": 445
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Balcony",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "shape": "diamond",
+            "x": 915,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "On Hill, Right",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 1605,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "On Hill, Left",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "museum",
+            "x": 1545,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "Paul",
+        "sections": [
+          {
+            "name": "Mission Start",
+            "item_size": "64,64",
+            "chest_unopened_img": "images/items/remote_explosives.png",
+            "chest_opened_img": "images/items_disabled/remote_explosives.png"
+          },
+          {
+            "name": "Mission End",
+            "item_size": "64,49",
+            "chest_unopened_img": "images/items/temple_key.png",
+            "chest_opened_img": "images/items_disabled/temple_key.png",
+            "access_rules": ["remote_explosives"]
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "museum",
+            "x": 840,
+            "y": 495
+          }
+        ]
+      }
+    ]
+  }
+]

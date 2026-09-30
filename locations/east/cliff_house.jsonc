@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Cliff House",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_cliff_house"
+    ],
+    "children": [
+      {
+        "name": "West, On Path, Near Rails",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 275,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "West, On Path, Near Left Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 350,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "West, On Path, Near Middle Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 550,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "West, On Path, Near Right Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 785,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "West, On Path, At Intersection, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1160,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Cliffside, On Path, Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1300,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Cliffside, On Path, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1320,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Clifftop, Behind House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1690,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Clifftop, Near Door",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1720,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Clifftop, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "cliff_house",
+            "x": 1640,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Bed",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "cliff_house",
+            "x": 1670,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "Inside, On First Floor",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "cliff_house",
+            "x": 1675,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Wooded Path, Near Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1330,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "West Path, On Shortcut Trail",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 865,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Chest",
+        "sections": [
+          {
+            "item_count": 5,
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cliff_house",
+            "x": 1645,
+            "y": 380
+          }
+        ]
+      }
+    ]
+  }
+]

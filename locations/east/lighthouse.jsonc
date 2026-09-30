@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Lighthouse",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_lighthouse"
+    ],
+    "children": [
+      {
+        "name": "Southwest, Near Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 735,
+            "y": 980
+          }
+        ]
+      },
+      {
+        "name": "Southwest, Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1045,
+            "y": 875
+          }
+        ]
+      },
+      {
+        "name": "Southwest, Under Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 960,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "South, Near Lanternless Post",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1135,
+            "y": 690
+          }
+        ]
+      },
+      {
+        "name": "Southeast, Under Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1340,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Southeast, Behind Shelter",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1400,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Southeast, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1465,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "East, Under Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1485,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "East, On Floating Bridge",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1525,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Southeast, On Path Intersection",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1355,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Middle, On Downhill Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1265,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Shed",
+        "sections": [
+          {
+            "name": "Breaker",
+            "item_size": "39,64",
+            "chest_unopened_img": "images/items/breaker.png",
+            "chest_opened_img": "images/items_disabled/breaker.png",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "size": 36,
+            "x": 1370,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Breaker Box",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1150,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Middle, On Lower Rock Ledge",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1275,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1105,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 980,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Middle, Coast Overlook",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 915,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Middle, Near Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 1010,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "West, On Coast",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "x": 785,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "shape": "trapezoid",
+            "x": 1070,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Claire",
+        "sections": [
+          {
+            "name": "Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "access_rules": ["$has_more_then_n|breaker|3"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lighthouse",
+            "shape": "trapezoid",
+            "x": 1100,
+            "y": 255
+          }
+        ]
+      }
+    ]
+  }
+]

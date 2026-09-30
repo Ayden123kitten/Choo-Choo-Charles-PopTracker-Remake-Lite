@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Lost Stairs",
+    "children": [
+      {
+        "name": "Foot Of Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_stairs",
+            "x": 1015,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Near Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_stairs",
+            "x": 1055,
+            "y": 415
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Watchtower",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_watchtower"
+    ],
+    "children": [
+      {
+        "name": "On South Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 920,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "name": "Between Tents",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 910,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "On Platform, In Corner",
+        "sections": [
+          {
+            "name": "Notes",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 935,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 740,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "On North Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 970,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "Near Right Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 1070,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Near Left Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 930,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "On Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "shape": "trapezoid",
+            "x": 950,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Chest",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "access_rules": ["lockpicks"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Pink Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "access_rules": ["lockpicks"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/pink_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/pink_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 955,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Under Schedule Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 990,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 995,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "On West Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 1255,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  }
+]

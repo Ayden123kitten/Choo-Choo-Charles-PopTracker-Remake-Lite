@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Fogbane Relics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/cursed_fogs_disabled.png",
+        "inherit_codes": false,
+        "codes": "relics_disabled, cursed_fogs_toggle"
+      },
+      {
+        "img": "images/toggles/cursed_fogs_pack.png",
+        "inherit_codes": false,
+        "codes": "cursed_fogs_pack, cursed_fogs_toggle"
+      },
+      {
+        "img": "images/toggles/cursed_fogs_enabled.png",
+        "inherit_codes": false,
+        "codes": "relics_enabled, cursed_fogs_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Scraps",
+    "type": "progressive",
+    "initial_stage_idx": 1,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/scraps_disabled.png",
+        "inherit_codes": false,
+        "codes": "scraps_disabled, scraps_toggle"
+      },
+      {
+        "img": "images/toggles/scraps_enabled.png",
+        "inherit_codes": false,
+        "codes": "scraps_enabled, scraps_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Notes",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/notes_disabled.png",
+        "inherit_codes": false,
+        "codes": "notes_disabled, notes_toggle"
+      },
+      {
+        "img": "images/toggles/notes_enabled.png",
+        "inherit_codes": false,
+        "codes": "notes_enabled, notes_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Paint Cans",
+    "type": "progressive",
+    "initial_stage_idx": 1,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/paint_cans_disabled.png",
+        "inherit_codes": false,
+        "codes": "paint_cans_disabled, paint_cans_toggle"
+      },
+      {
+        "img": "images/toggles/paint_cans_enabled.png",
+        "inherit_codes": false,
+        "codes": "paint_cans_enabled, paint_cans_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Track Switches",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/track_switch_disabled.png",
+        "inherit_codes": false,
+        "codes": "track_switch_disabled, track_switch_toggle"
+      },
+      {
+        "img": "images/toggles/track_switch_pack.png",
+        "inherit_codes": false,
+        "codes": "track_switch_pack, track_switch_toggle"
+      },
+      {
+        "img": "images/toggles/track_switch_enabled.png",
+        "inherit_codes": false,
+        "codes": "track_switch_enabled, track_switch_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Weapons",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/weapons_disabled.png",
+        "inherit_codes": false,
+        "codes": "weapons_disabled, weapons_toggle"
+      },
+      {
+        "img": "images/toggles/weapons_enabled.png",
+        "inherit_codes": false,
+        "codes": "weapons_enabled, weapons_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/armor_disabled.png",
+        "inherit_codes": false,
+        "codes": "armor_disabled_toggle, armor_toggle"
+      },
+      {
+        "img": "images/toggles/armor_unlock.png",
+        "inherit_codes": false,
+        "codes": "armor_unlock_toggle, armor_toggle"
+      },
+      {
+        "img": "images/toggles/armor_levels.png",
+        "inherit_codes": false,
+        "codes": "armor_levels_toggle, armor_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Damage",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/damage_disabled.png",
+        "inherit_codes": false,
+        "codes": "damage_disabled_toggle, damage_toggle"
+      },
+      {
+        "img": "images/toggles/damage_unlock.png",
+        "inherit_codes": false,
+        "codes": "damage_unlock_toggle, damage_toggle"
+      },
+      {
+        "img": "images/toggles/damage_levels.png",
+        "inherit_codes": false,
+        "codes": "damage_levels_toggle, damage_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Speed",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/speed_disabled.png",
+        "inherit_codes": false,
+        "codes": "speed_disabled_toggle, speed_toggle"
+      },
+      {
+        "img": "images/toggles/speed_unlock.png",
+        "inherit_codes": false,
+        "codes": "speed_unlock_toggle, speed_toggle"
+      },
+      {
+        "img": "images/toggles/speed_levels.png",
+        "inherit_codes": false,
+        "codes": "speed_levels_toggle, speed_toggle"
+      }
+    ]
+  },
+  {
+    "name": "Core",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/core_disabled.png",
+        "inherit_codes": false,
+        "codes": "core_disabled_toggle, core_toggle"
+      },
+      {
+        "img": "images/toggles/core_enabled.png",
+        "inherit_codes": false,
+        "codes": "core_enabled_toggle, core_toggle"
+      }
+    ]
+  }
+]

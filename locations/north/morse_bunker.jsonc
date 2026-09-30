@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Morse Bunker",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_morse_bunker"
+    ],
+    "children": [
+      {
+        "name": "Chest",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 5,
+            "access_rules": ["lockpicks"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "shape": "trapezoid",
+            "x": 825,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Morse Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "shape": "trapezoid",
+            "x": 815,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "shape": "trapezoid",
+            "x": 795,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "shape": "trapezoid",
+            "x": 795,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Short Barriers",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 865,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Outside, Under Tree",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 880,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Outside, Above Doors",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 815,
+            "y": 326
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Downhill Path, At Dead-End",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 955,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Main Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 1060,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Outside, Near Long Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 1180,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Outside, At Crossroads",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 1065,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Downhill Path, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 930,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Downhill Path, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 680,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Outside, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 950,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Outside, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "morse_bunker",
+            "x": 1220,
+            "y": 250
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Port",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_port"
+    ],
+    "children": [
+      {
+        "name": "Santiago",
+        "sections": [
+          {
+            "name": "Mission End",
+            "access_rules": ["journal"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1440,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Docks, Sheltered, On Shelf",
+        "visibility_rules": ["paint_cans_enabled"],
+        "sections": [
+          {
+            "name": "Grey Paint Can",
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/grey_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/grey_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 1195,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Station, Near Shelter",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 530,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Station, Half Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 570,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Station, Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 505,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Station, Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 410,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "Station, Near Note",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 460,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Station, On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 465,
+            "y": 195
+          }
+        ]
+      },
+      {
+        "name": "Path, Topmost",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 780,
+            "y": 805
+          }
+        ]
+      },
+      {
+        "name": "Path, Near Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 820,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Path, Under Unlit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1035,
+            "y": 890
+          }
+        ]
+      },
+      {
+        "name": "Path, Near Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1290,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Docks, Near Shelter",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1160,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Docks, Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 1160,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "Docks, Platform Start",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1350,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Docks, Under Platform",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "port",
+            "x": 1400,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Docks, Near Beds",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "port",
+            "x": 1340,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Docks, Between Lanterns",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1515,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Docks, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1655,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Docks, On Gangway",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1600,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Docks, Behind House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1305,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "In House",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "rect",
+            "map": "port",
+            "x": 1320,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Docks, In Gangway Corner",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "port",
+            "x": 1675,
+            "y": 320
+          }
+        ]
+      }
+    ]
+  }
+]

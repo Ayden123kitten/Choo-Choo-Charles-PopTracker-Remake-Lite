@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Santiago's House",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_santiago_s_house"
+    ],
+    "children": [
+      {
+        "name": "Inside, On Table",
+        "sections": [
+          {
+            "name": "Journal",
+            "item_size": "64,43",
+            "chest_unopened_img": "images/items/journal.png",
+            "chest_opened_img": "images/items_disabled/journal.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "santiago_s_house",
+            "x": 750,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "On Shrine",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 1010,
+            "y": 805
+          }
+        ]
+      },
+      {
+        "name": "Near Shrine",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 1115,
+            "y": 705
+          }
+        ]
+      },
+      {
+        "name": "Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 865,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Behind Lit Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 845,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "Behind House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 720,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 850,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "santiago_s_house",
+            "x": 795,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Inside, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "santiago_s_house",
+            "x": 840,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Inside, On Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "santiago_s_house",
+            "x": 740,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "On Path",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santiago_s_house",
+            "x": 1065,
+            "y": 255
+          }
+        ]
+      }
+    ]
+  }
+]

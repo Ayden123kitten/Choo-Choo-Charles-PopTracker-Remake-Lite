@@ -1,0 +1,61 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "content": [
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "goal_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "unlock_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "quest_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "weapons_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "fog_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "track_switch_item_grid"
+            },
+            {
+              "type": "layout",
+              "dock": "top",
+              "key": "upgrades_item_grid"
+            }
+          ]
+        },
+        {
+           "type": "layout",
+           "key": "tabs_layout"
+        }
+      ]
+    }
+  },
+  "settings_popup": {
+    "type": "layout",
+    "key": "settings"
+  }
+}

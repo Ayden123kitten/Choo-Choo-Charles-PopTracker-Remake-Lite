@@ -1,0 +1,389 @@
+[
+  {
+    "name": "Mountain Ruin",
+    "access_rules": [
+      "cursed_fogs_pack",
+      "relics_disabled",
+      "relics_enabled, fogbane_mountain_ruin"
+    ],
+    "children": [
+      {
+        "name": "Bottom, Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "mountain_ruin",
+            "x": 1600,
+            "y": 965
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near Minecarts",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1570,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near Twin Tents",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1550,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near Crates",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1535,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Collapsed Mines",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "shape": "trapezoid",
+            "x": 1360,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Near Lonely Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1610,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Bottom, Under Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1495,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Downhill Path, On Rocks, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1440,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Downhill Path, Near Barrier",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1380,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Near Minecart",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1205,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Near Crate",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1120,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Near Dirt Heaps",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1240,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Near Tents, Bottom",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1040,
+            "y": 105
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Near Tents, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1035,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Pillars, Behind Tent",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 950,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Downhill Path, On Rocks, Top",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1480,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Topmost, On Rocks",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "x": 1170,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Inside",
+        "access_rules": ["mountain_ruin_key"],
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png",
+            "item_count": 17
+          },
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png",
+            "item_count": 2
+          },
+          {
+            "name": "Red Paint Can",
+            "visibility_rules": ["paint_cans_enabled"],
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/red_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/red_paint_can.png",
+            "access_rules": ["lockpicks"]
+          },
+          {
+            "name": "Red Egg",
+            "item_size": "51,64",
+            "chest_unopened_img": "images/items/red_egg.png",
+            "chest_opened_img": "images/items_disabled/red_egg.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mountain_ruin",
+            "size": 75,
+            "shape": "trapezoid",
+            "x": 1085,
+            "y": 375
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,460 @@
+[
+  {
+    "name": "Middle Station",
+    "access_rules": [
+      "fogbane_pack, relics_enabled",
+      "relics_disabled",
+      "relics_enabled, fogbane_middle_station"
+    ],
+    "children": [
+      {
+        "name": "White Paint Can",
+        "visibility_rules": ["paint_cans_enabled"],
+        "sections": [
+          {
+            "item_size": "64,63",
+            "chest_unopened_img": "images/paint_cans/white_paint_can.png",
+            "chest_opened_img": "images/paint_cans_disabled/white_paint_can.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 900,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Theodore",
+        "access_rules": ["blue_box"],
+        "sections": [
+          {
+            "name": "Mission End",
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 945,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Near Beams",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1150,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "Path To House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1105,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Near House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1075,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "name": "Under House Roof",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "middle_station",
+            "x": 1115,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Under House Lantern",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1170,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Behind House",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1085,
+            "y": 905
+          }
+        ]
+      },
+      {
+        "name": "Foot Of Stairs",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1065,
+            "y": 635
+          }
+        ]
+      },
+      {
+        "name": "On Balcony",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 1025,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Near Table",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 1005,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "On Table",
+        "sections": [
+          {
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
+            "item_size": "32,64",
+            "chest_unopened_img": "images/notes/note.png",
+            "chest_opened_img": "images/notes_disabled/note.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 1010,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Near Beds",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 920,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "On Footbridge",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "shape": "trapezoid",
+            "x": 835,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Near Railcar",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1135,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Near Bench",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1040,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Behind Station (Blinky)",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 975,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "On Rock Foundations",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 1050,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Half Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "middle_station",
+            "x": 835,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Sheltered",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "middle_station",
+            "x": 820,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "name": "Inside Railcar, Near Stool",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "middle_station",
+            "x": 845,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Inside Railcar, Near Crate",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "shape": "diamond",
+            "map": "middle_station",
+            "x": 880,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "Near Rails",
+        "sections": [
+          {
+            "name": "Scraps",
+            "visibility_rules": ["scraps_enabled"],
+            "item_size": "64,32",
+            "chest_unopened_img": "images/items/scraps.png",
+            "chest_opened_img": "images/items_disabled/scraps.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "middle_station",
+            "x": 715,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  }
+]

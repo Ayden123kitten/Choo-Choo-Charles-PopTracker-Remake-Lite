@@ -1,0 +1,20 @@
+{
+  "upgrades_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "group",
+        "header": "Upgrades",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "2, 2",
+          "item_h_alignment": "center",
+          "item_v_alignment": "center",
+          "rows": [["speed_levels"]]
+        }
+      }
+    ]
+  }
+}
