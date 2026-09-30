@@ -2,8 +2,8 @@
   "versions": [
     {
       "package_version": "3.0.0",
-      "download_url": "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake-Lite/releases/tag/3.0.0",
-      "sha256": "",
+      "download_url": "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake-Lite/releases/download/3.0.0/Choo-Choo-Charles-Tracker-Lite.zip",
+      "sha256": "f6996872e26761ecc7c684a35d2830d63485a6c484316ee54c7994c0e718cf24",
       "changelog": [
         "The 3.0.0 overhaul of the PopTracker Pack for Choo-Choo Charles."
       ]
