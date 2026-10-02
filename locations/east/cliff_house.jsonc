@@ -8,7 +8,7 @@
     ],
     "children": [
       {
-        "name": "West, On Path, Near Rails",
+        "name": "On West Path, Near Rails",
         "sections": [
           {
             "name": "Scraps",
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "name": "West, On Path, Near Left Lantern",
+        "name": "On West Path, Near Left Lantern",
         "sections": [
           {
             "name": "Scraps",
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "name": "West, On Path, Near Middle Lantern",
+        "name": "On West Path, Near Middle Lantern",
         "sections": [
           {
             "name": "Scraps",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "name": "West, On Path, Near Right Lantern",
+        "name": "On West Path, Near Right Lantern",
         "sections": [
           {
             "name": "Scraps",
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "name": "West, On Path, At Intersection, Near Lantern",
+        "name": "On West Path, At Intersection, Near Lantern",
         "sections": [
           {
             "name": "Scraps",
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "name": "Cliffside, On Path, Near Tent",
+        "name": "On Cliffside Path, Near Tent",
         "sections": [
           {
             "name": "Scraps",
@@ -122,7 +122,7 @@
         ]
       },
       {
-        "name": "Cliffside, On Path, Under Lantern",
+        "name": "On Cliffside Path, Under Lantern",
         "sections": [
           {
             "name": "Scraps",

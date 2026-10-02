@@ -18,7 +18,7 @@
             {
               "type": "layout",
               "dock": "top",
-              "key": "unlock_item_grid"
+              "key": "lockpicks_keys_item_grid"
             },
             {
               "type": "layout",
@@ -48,8 +48,8 @@
           ]
         },
         {
-           "type": "layout",
-           "key": "tabs_layout"
+          "type": "layout",
+          "key": "tabs_layout"
         }
       ]
     }

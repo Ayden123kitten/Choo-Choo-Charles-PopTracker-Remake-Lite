@@ -161,7 +161,7 @@
         ]
       },
       {
-        "name": "Chest",
+        "name": "Near Chest",
         "sections": [
           {
             "name": "Scraps",
@@ -170,7 +170,19 @@
             "item_size": "64,32",
             "chest_unopened_img": "images/items/scraps.png",
             "chest_opened_img": "images/items_disabled/scraps.png"
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "watchtower",
+            "x": 965,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Chest",
+        "sections": [
           {
             "name": "Pink Paint Can",
             "visibility_rules": ["paint_cans_enabled"],

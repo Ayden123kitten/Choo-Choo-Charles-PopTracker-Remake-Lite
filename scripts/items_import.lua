@@ -1,4 +1,2 @@
-
 Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/location_items.json")
-Tracker:AddItems("items/labels.json")
+Tracker:AddItems("items/item_settings.json")

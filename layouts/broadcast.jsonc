@@ -22,7 +22,7 @@
         "content": [
           {
             "type": "layout",
-            "key": "unlock_item_grid"
+            "key": "quest_item_grid"
           }
         ]
       },

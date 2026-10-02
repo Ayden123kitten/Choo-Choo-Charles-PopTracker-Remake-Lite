@@ -245,7 +245,7 @@
         ]
       },
       {
-        "name": "Pillars, Near Tents, Bottom",
+        "name": "Pillars, Near Tents, Front",
         "sections": [
           {
             "name": "Scraps",
@@ -264,7 +264,7 @@
         ]
       },
       {
-        "name": "Pillars, Near Tents, Top",
+        "name": "Pillars, Near Tents, Back",
         "sections": [
           {
             "name": "Scraps",

@@ -1,6 +1,6 @@
 -- Main
-Tracker:AddLocations("locations/worldmap_no_notes.jsonc")
 Tracker:AddLocations("locations/worldmap.jsonc")
+Tracker:AddLocations("locations/worldmap_no_notes.jsonc")
 
 -- South
 Tracker:AddLocations("locations/south/barn.jsonc")
@@ -16,16 +16,16 @@ Tracker:AddLocations("locations/south/south_mine.jsonc")
 Tracker:AddLocations("locations/south/swamp.jsonc")
 
 -- Central
-Tracker:AddLocations("locations/central/canyon.jsonc")
-Tracker:AddLocations("locations/central/middle_station.jsonc")
-Tracker:AddLocations("locations/central/watchtower.jsonc")
 Tracker:AddLocations("locations/central/boulder_field.jsonc")
+Tracker:AddLocations("locations/central/canyon.jsonc")
 Tracker:AddLocations("locations/central/haunted_house.jsonc")
-Tracker:AddLocations("locations/central/santiago_s_house.jsonc")
+Tracker:AddLocations("locations/central/middle_station.jsonc")
+Tracker:AddLocations("locations/central/pickle_valley.jsonc")
 Tracker:AddLocations("locations/central/port.jsonc")
+Tracker:AddLocations("locations/central/santiago_s_house.jsonc")
 Tracker:AddLocations("locations/central/shrine_near_temple.jsonc")
 Tracker:AddLocations("locations/central/temple.jsonc")
-Tracker:AddLocations("locations/central/pickle_valley.jsonc")
+Tracker:AddLocations("locations/central/watchtower.jsonc")
 
 -- East
 Tracker:AddLocations("locations/east/cliff_house.jsonc")

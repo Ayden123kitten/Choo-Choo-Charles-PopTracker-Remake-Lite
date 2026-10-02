@@ -8,7 +8,7 @@
     ],
     "children": [
       {
-        "name": "House, Near Platform",
+        "name": "House, Outside, Near Platform",
         "sections": [
           {
             "name": "Scraps",
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "name": "House, On Table",
+        "name": "House, Outside, On Table",
         "sections": [
           {
             "name": "Note",
@@ -217,7 +217,7 @@
         ]
       },
       {
-        "name": "Cross-Valley, Path Unstacked Crates",
+        "name": "Cross-Valley Path, Unstacked Crates",
         "sections": [
           {
             "name": "Scraps",
@@ -317,8 +317,8 @@
         "name": "Cave, On Table",
         "sections": [
           {
-            "name": "Scraps",
-            "visibility_rules": ["scraps_enabled"],
+            "name": "Note",
+            "visibility_rules": ["notes_enabled"],
             "item_size": "32,64",
             "chest_unopened_img": "images/notes/note.png",
             "chest_opened_img": "images/notes_disabled/note.png"

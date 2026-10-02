@@ -27,7 +27,7 @@
         ]
       },
       {
-        "name": "On Shrine",
+        "name": "Outside, On Shrine",
         "sections": [
           {
             "name": "Scraps",
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "name": "Near Shrine",
+        "name": "Outside, Near Shrine",
         "sections": [
           {
             "name": "Scraps",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "name": "Near Crates",
+        "name": "Outside, Near Crates",
         "sections": [
           {
             "name": "Scraps",
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "name": "Behind Lit Lantern",
+        "name": "Outside, Behind Lit Lantern",
         "sections": [
           {
             "name": "Scraps",
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "name": "Behind House",
+        "name": "Outside, Behind House",
         "sections": [
           {
             "name": "Scraps",
@@ -122,7 +122,7 @@
         ]
       },
       {
-        "name": "On Rocks",
+        "name": "Outside, On Rocks",
         "sections": [
           {
             "name": "Scraps",
@@ -201,7 +201,7 @@
         ]
       },
       {
-        "name": "On Path",
+        "name": "Outside, On Path",
         "sections": [
           {
             "name": "Scraps",
