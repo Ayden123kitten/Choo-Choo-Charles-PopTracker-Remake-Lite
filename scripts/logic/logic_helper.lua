@@ -9,7 +9,7 @@ local bool_to_accesslvl = {
     [true] = ACCESS_NORMAL,
     [false] = ACCESS_NONE
 }
-
+                
 function A(result)
     if result then
         return ACCESS_NORMAL
@@ -212,13 +212,13 @@ if mode.CurrentStage == 0 then
     end
 end
 
-ScriptHost:AddWatchForCode("scraps layout handler", "scraps_toggle", OnChangeMaps)
-ScriptHost:AddWatchForCode("paint cans layout handler", "paint_cans_toggle", OnChangeMaps)
-ScriptHost:AddWatchForCode("weapons layout handler", "weapons_toggle", OnChangeWeapons)
 ScriptHost:AddWatchForCode("fogbane relic layout handler", "cursed_fogs_toggle", OnChangeFogbaneRelic)
 ScriptHost:AddWatchForCode("track switch layout handler", "track_switch_toggle", OnChangeTrackSwitch)
+ScriptHost:AddWatchForCode("weapons layout handler", "weapons_toggle", OnChangeWeapons)
+ScriptHost:AddWatchForCode("armor layout handler", "armor_toggle", OnChangeUpgrade)
 ScriptHost:AddWatchForCode("speed layout handler", "speed_toggle", OnChangeUpgrade)
 ScriptHost:AddWatchForCode("damage layout handler", "damage_toggle", OnChangeUpgrade)
-ScriptHost:AddWatchForCode("armor layout handler", "armor_toggle", OnChangeUpgrade)
 ScriptHost:AddWatchForCode("notes layout handler", "notes_toggle", OnChangeMaps)
+ScriptHost:AddWatchForCode("scraps layout handler", "scraps_toggle", OnChangeMaps)
+ScriptHost:AddWatchForCode("paint cans layout handler", "paint_cans_toggle", OnChangeMaps)
 ScriptHost:AddWatchForCode("core layout handler", "core_toggle", OnChangeCore)

@@ -80,7 +80,7 @@
   {
     "name": "Child's Drawing",
     "type": "consumable",
-    "img": "images/items/childs_drawing.png",
+    "img": "images/items_2/childs_drawing.png",
     "codes": "childs_drawing",
     "max_quantity": 8,
     "increment": 1,
