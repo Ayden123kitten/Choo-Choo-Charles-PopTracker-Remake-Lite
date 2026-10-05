@@ -331,6 +331,25 @@
         ]
       },
       {
+        "name": "Near Tents",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon",
+            "x": 880,
+            "y": 525
+          }
+        ]
+      },
+      {
         "name": "East, On Lonely Rocks",
         "sections": [
           {

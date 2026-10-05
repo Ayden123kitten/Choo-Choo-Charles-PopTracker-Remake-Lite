@@ -670,6 +670,101 @@
         ]
       },
       {
+        "name": "Around, North",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple",
+            "x": 810,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Around, South",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple",
+            "x": 760,
+            "y": 835
+          }
+        ]
+      },
+      {
+        "name": "Around, Southwest",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple",
+            "x": 625,
+            "y": 765
+          }
+        ]
+      },
+      {
+        "name": "Around, Southeast",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple",
+            "x": 1105,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Middle, Topmost",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple",
+            "x": 890,
+            "y": 530
+          }
+        ]
+      },
+      {
         "name": "Around, East, On Path",
         "sections": [
           {

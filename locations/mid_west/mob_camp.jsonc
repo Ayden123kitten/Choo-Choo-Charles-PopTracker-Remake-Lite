@@ -401,6 +401,44 @@
         ]
       },
       {
+        "name": "Mask Tower, Upstairs",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 870,
+            "y": 635
+          }
+        ]
+      },
+      {
+        "name": "Mask Tower, Downstairs",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mob_camp",
+            "x": 890,
+            "y": 580
+          }
+        ]
+      },
+      {
         "name": "Topmost, On Bridge",
         "sections": [
           {

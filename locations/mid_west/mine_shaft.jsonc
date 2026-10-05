@@ -24,8 +24,8 @@
           {
             "map": "mine_shaft",
             "shape": "trapezoid",
-            "x": 1150,
-            "y": 390
+            "x": 855,
+            "y": 620
           }
         ]
       },
@@ -161,8 +161,8 @@
           {
             "map": "mine_shaft",
             "shape": "trapezoid",
-            "x": 685,
-            "y": 645
+            "x": 1150,
+            "y": 390
           }
         ]
       },

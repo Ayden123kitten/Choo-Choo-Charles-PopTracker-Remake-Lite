@@ -180,6 +180,23 @@
     ]
   },
   {
+    "name": "Cultists",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/toggles/cultists_disabled.png",
+        "inherit_codes": false,
+        "codes": "cultists_disabled, cultists_toggle"
+      },
+      {
+        "img": "images/toggles/cultists_enabled.png",
+        "inherit_codes": false,
+        "codes": "cultists_enabled, cultists_toggle"
+      }
+    ]
+  },
+  {
     "name": "Core",
     "type": "progressive",
     "allow_disabled": false,

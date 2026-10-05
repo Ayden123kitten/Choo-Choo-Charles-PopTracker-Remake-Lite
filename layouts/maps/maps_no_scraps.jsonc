@@ -158,6 +158,13 @@
               }
             },
             {
+              "title": "Temple",
+              "content": {
+                "type": "map",
+                "maps": ["temple"]
+              }
+            },
+            {
               "title": "Watchtower",
               "content": {
                 "type": "map",

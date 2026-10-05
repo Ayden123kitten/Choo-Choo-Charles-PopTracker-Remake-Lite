@@ -161,6 +161,44 @@
         ]
       },
       {
+        "name": "Near Elevator",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_elevator_exit",
+            "x": 870,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "Near Shelter",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_elevator_exit",
+            "x": 1080,
+            "y": 610
+          }
+        ]
+      },
+      {
         "name": "On Downhill Path",
         "sections": [
           {

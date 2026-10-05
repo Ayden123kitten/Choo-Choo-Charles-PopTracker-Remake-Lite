@@ -372,6 +372,14 @@
             "item_size": "51,64",
             "chest_unopened_img": "images/items/red_egg.png",
             "chest_opened_img": "images/items_disabled/red_egg.png"
+          },
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png",
+            "item_count": 3
           }
         ],
         "map_locations": [

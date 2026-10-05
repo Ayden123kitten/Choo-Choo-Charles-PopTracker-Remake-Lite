@@ -39,6 +39,14 @@
             "item_size": "51,64",
             "chest_unopened_img": "images/items/blue_egg.png",
             "chest_opened_img": "images/items_disabled/blue_egg.png"
+          },
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png",
+            "item_count": 2
           }
         ],
         "map_locations": [
@@ -314,6 +322,25 @@
             "map": "north_mine",
             "x": 1160,
             "y": 165
+          }
+        ]
+      },
+      {
+        "name": "On Main Path",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_mine",
+            "x": 990,
+            "y": 405
           }
         ]
       },

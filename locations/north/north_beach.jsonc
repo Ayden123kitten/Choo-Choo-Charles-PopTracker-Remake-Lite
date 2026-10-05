@@ -334,6 +334,25 @@
         ]
       },
       {
+        "name": "Near Tents",
+        "sections": [
+          {
+            "name": "Cultist",
+            "visibility_rules": ["cultists_enabled"],
+            "item_size": "64,59",
+            "chest_unopened_img": "images/cultists/mask.png",
+            "chest_opened_img": "images/cultists_disabled/mask.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "north_beach",
+            "x": 1605,
+            "y": 780
+          }
+        ]
+      },
+      {
         "name": "Shack, Floating Bridge, On Table",
         "visibility_rules": ["paint_cans_enabled"],
         "sections": [

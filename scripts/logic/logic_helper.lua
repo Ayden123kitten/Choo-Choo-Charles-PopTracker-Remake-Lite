@@ -182,25 +182,32 @@ function OnChangeMaps()
 local scraps = Tracker:FindObjectForCode("scraps_toggle")
 local paint = Tracker:FindObjectForCode("paint_cans_toggle")
 local notes = Tracker:FindObjectForCode("notes_toggle")
-if scraps.CurrentStage == 0 then
-        Tracker:AddLayouts("layouts/maps/maps_no_scraps.jsonc")
+local cultists = Tracker:FindObjectForCode("cultists_toggle")
+if scraps.CurrentStage == 1 and notes.CurrentStage == 1 and paint.CurrentStage == 1 then
+    Tracker:AddLayouts("layouts/maps/maps.jsonc")
+    Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
+    elseif scraps.CurrentStage == 0 and paint.CurrentStage == 0 and notes.CurrentStage == 0 and cultists.CurrenStage == 0 then
+        Tracker:AddLayouts("layouts/maps/maps_no_scraps_or_paint_or_notes_or_cultists.jsonc")
         Tracker:AddLayouts("layouts/maps/worldmap_no_notes.jsonc")
-    elseif notes.CurrentStage == 0 then
-        Tracker:AddLayouts("layouts/maps/maps_no_notes.jsonc")
-        Tracker:AddLayouts("layouts/maps/worldmap_no_notes.jsonc")
-    elseif scraps.CurrentStage == 0 and paint.CurrentStage == 0 then
-        Tracker:AddLayouts("layouts/maps/maps_no_paint_or_scraps.jsonc")
-        Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
     elseif scraps.CurrentStage == 0 and paint.CurrentStage == 0 and notes.CurrentStage == 0 then
         Tracker:AddLayouts("layouts/maps/maps_no_paint_or_scraps_or_notes.jsonc")
         Tracker:AddLayouts("layouts/maps/worldmap_no_notes.jsonc")
     elseif scraps.CurrentStage == 0 and notes.CurrentStage == 0 then
         Tracker:AddLayouts("layouts/maps/maps_no_notes_or_scraps.jsonc")
         Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
-    elseif scraps.CurrentStage == 1 and notes.CurrentStage == 1 and paint.CurrentStage == 1 then
-        Tracker:AddLayouts("layouts/maps/maps.jsonc")
-       Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
-     end
+    elseif scraps.CurrentStage == 0 and paint.CurrentStage == 0 then
+        Tracker:AddLayouts("layouts/maps/maps_no_paint_or_scraps.jsonc")
+        Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
+    elseif scraps.CurrentStage == 0 and cultists.CurrentStage == 0 then
+        Tracker:AddLayouts("layouts/maps/maps_no_scraps_or_cultists.jsonc")
+        Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
+    elseif notes.CurrentStage == 0 then
+        Tracker:AddLayouts("layouts/maps/maps_no_notes.jsonc")
+        Tracker:AddLayouts("layouts/maps/worldmap_no_notes.jsonc")
+    elseif scraps.CurrentStage == 0 then
+        Tracker:AddLayouts("layouts/maps/maps_no_scraps.jsonc")
+        Tracker:AddLayouts("layouts/maps/worldmap.jsonc")
+    end
 end
 
 function OnChangeCore()
@@ -221,4 +228,5 @@ ScriptHost:AddWatchForCode("damage layout handler", "damage_toggle", OnChangeUpg
 ScriptHost:AddWatchForCode("notes layout handler", "notes_toggle", OnChangeMaps)
 ScriptHost:AddWatchForCode("scraps layout handler", "scraps_toggle", OnChangeMaps)
 ScriptHost:AddWatchForCode("paint cans layout handler", "paint_cans_toggle", OnChangeMaps)
+ScriptHost:AddWatchForCode("cultists layout handler", "cultists_toggle", OnChangeMaps)
 ScriptHost:AddWatchForCode("core layout handler", "core_toggle", OnChangeCore)
