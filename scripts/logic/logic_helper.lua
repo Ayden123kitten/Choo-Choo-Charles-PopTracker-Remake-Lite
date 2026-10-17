@@ -92,8 +92,10 @@ if mode.CurrentStage == 0 then
         Tracker:AddLayouts("layouts/goal_no_fog.jsonc")
     elseif mode.CurrentStage == 1 then
         Tracker:AddLayouts("layouts/fogbane_relics/fog_grid_pack.jsonc")
+        Tracker:AddLayouts("layouts/goal.jsonc")
     else
         Tracker:AddLayouts("layouts/fogbane_relics/fog_grid_on.jsonc")
+        Tracker:AddLayouts("layouts/goal.jsonc")
     end
 end
 
