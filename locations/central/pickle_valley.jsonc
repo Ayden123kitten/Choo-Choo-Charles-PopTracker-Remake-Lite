@@ -27,7 +27,7 @@
         ]
       },
       {
-        "name": "House, Outside, On Table",
+        "name": "House, Inside, On Table",
         "sections": [
           {
             "name": "Note",
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "name": "House, Near Water Tank",
+        "name": "House, Outside, Near Water Tank",
         "sections": [
           {
             "name": "Scraps",

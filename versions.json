@@ -1,10 +1,20 @@
 {
   "versions": [
     {
+      "package_version": "3.0.7",
+      "download_url": "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake/releases/download/3.0.7/Choo-Choo-Charles-Tracker.zip",
+      "sha256": "5f0a13ef5f32cefa7788e6faa2964f047b73d5d5798a637c46a040d6431f6d39",
+      "changelog": [
+        "Fixed the autotracking and location name for a location in Museum, 2 in Tower Near Workshop, Church and Pickle Valley."
+      ]
+    },
+    {
       "package_version": "3.0.6",
       "download_url": "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake/releases/download/3.0.6/Choo-Choo-Charles-Tracker.zip",
       "sha256": "58e5a09e9dd44f2a18cdfbf2770022dc79a8de68ff67104533f919c627b8f010",
-      "changelog": ["Fixed the Temple Fogbane Relic not appearing in the Goal Items when Fogbane Relics are enabled."]
+      "changelog": [
+        "Fixed the Temple Fogbane Relic not appearing in the Goal Items when Fogbane Relics are enabled."
+      ]
     },
     {
       "package_version": "3.0.5",
@@ -16,7 +26,9 @@
       "package_version": "3.0.4",
       "download_url": "https://github.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake/releases/download/3.0.4/Choo-Choo-Charles-Tracker.zip",
       "sha256": "56e8a45aa04782a874b4bb7c56a38670414c426dc7928ddf819562fb6499940a",
-      "changelog": ["Fixed the autotracking for settings and fixed the locations of a few locations."]
+      "changelog": [
+        "Fixed the autotracking for settings and fixed the locations of a few locations."
+      ]
     },
     {
       "package_version": "3.0.3",
