@@ -72,6 +72,13 @@
               }
             },
             {
+              "title": "Start Station",
+              "content": {
+                "type": "map",
+                "maps": ["start_station"]
+              }
+            },
+            {
               "title": "Start Dock",
               "content": {
                 "type": "map",

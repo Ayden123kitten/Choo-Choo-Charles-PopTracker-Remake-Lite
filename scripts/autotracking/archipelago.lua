@@ -121,6 +121,10 @@ function apply_slot_data(slot_data)
 	if slot_data["DamageUpgrade"] then
 		Tracker:FindObjectForCode("damage_toggle").CurrentStage = slot_data["DamageUpgrade"]
 	end
+
+	if slot_data["TrainAccess"] then
+		Tracker:FindObjectForCode("train_access_toggle").CurrentStage = slot_data["TrainAccess"]
+	end
 end
 
 -- called right after an AP slot is connected

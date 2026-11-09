@@ -20,6 +20,24 @@
             "y": 550
           }
         ]
+      },
+      {
+        "name": "In Shack",
+        "sections": [
+          {
+            "name": "Train Station Key",
+            "item_size": "64,26",
+            "chest_unopened_img": "images/items/key.png",
+            "chest_opened_img": "images/items/key_disabled.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "start_station",
+            "x": 1700,
+            "y": 390
+          }
+        ]
       }
     ]
   }

@@ -1,10 +1,10 @@
 {
-  "name": "Choo-Choo Charles Archipelago",
+  "name": "Choo-Choo Charles Archipelago Lite",
   "game_name": "Choo-Choo Charles",
-  "package_version": "3.0.7",
+  "package_version": "3.0.8",
   "package_uid": "choo_choo_charles_ap",
   "author": "Ayden",
-  "versions_url": "https://raw.githubusercontent.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake/refs/heads/main/versions.json",
+  "versions_url": "https://raw.githubusercontent.com/Ayden123kitten/Choo-Choo-Charles-PopTracker-Remake-Lite/refs/heads/main/versions.json",
   "variants": {
     "Map Tracker": {
       "display_name": "Tracker",

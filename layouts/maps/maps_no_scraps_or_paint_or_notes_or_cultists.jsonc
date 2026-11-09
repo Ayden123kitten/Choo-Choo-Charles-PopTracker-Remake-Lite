@@ -51,31 +51,10 @@
               }
             },
             {
-              "title": "South House",
-              "content": {
-                "type": "map",
-                "maps": ["south_house"]
-              }
-            },
-            {
               "title": "South Mine",
               "content": {
                 "type": "map",
                 "maps": ["south_mine"]
-              }
-            },
-            {
-              "title": "Start Camp",
-              "content": {
-                "type": "map",
-                "maps": ["start_camp"]
-              }
-            },
-            {
-              "title": "Start Dock",
-              "content": {
-                "type": "map",
-                "maps": ["start_dock"]
               }
             },
             {

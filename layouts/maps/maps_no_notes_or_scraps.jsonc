@@ -65,6 +65,13 @@
               }
             },
             {
+              "title": "Start Station",
+              "content": {
+                "type": "map",
+                "maps": ["start_station"]
+              }
+            },
+            {
               "title": "Swamp",
               "content": {
                 "type": "map",
